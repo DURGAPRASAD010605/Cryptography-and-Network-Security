@@ -6,7 +6,7 @@ public class Congruence{
             int a=sc.nextInt();
         System.out.println("Enter value of b: ");
             int b=sc.nextInt();
-        System.out.println("Enter value of c: ");
+        System.out.println("Enter value of n: ");
             int n=sc.nextInt();
         for(int i=1;i<=a*b;i++){
             if((a*i)/n==b){
@@ -14,6 +14,6 @@ public class Congruence{
                System.exit(1);
             }  
         }
-        System.out.println(" there is not congrent ");
+        System.out.println(" the number  is not congrent ");
     }    
 }
